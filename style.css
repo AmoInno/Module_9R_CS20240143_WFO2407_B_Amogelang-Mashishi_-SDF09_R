@@ -6,6 +6,8 @@ body {
     text-align: center;
     font-size: 38px;
     font-weight: bold;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -26,4 +28,27 @@ button{
     font-weight: bold;
     font-size: 20px;
     border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 65px;
+        margin-top: 0;
+    }
+
+    p{
+        margin: 40px;
+    }
+
+    button{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+
 }
